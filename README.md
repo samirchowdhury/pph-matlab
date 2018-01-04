@@ -1,7 +1,7 @@
 # pph-matlab
 
 Matlab code for computing path persistent homology of directed networks. 
-The current implementation only computes PPH up to homology dimension 1.
+The current implementation computes PPH up to homology dimension 1.
 
 Chowdhury, S. and Mémoli, F., Persistent Path Homology of Directed Networks. To appear in SODA 2018.
 
