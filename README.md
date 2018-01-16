@@ -15,8 +15,8 @@ pers = computePPH(A,max(max(A)))
 
 ### Further testing with cycle networks
 
->> load cycle_nets.mat
->> A{3}
+load cycle_nets.mat
+A{3}
 ans =
 
    0   1   2   3   4
@@ -25,8 +25,8 @@ ans =
    2   3   4   0   1
    1   2   3   4   0
    
->> pers = computePPH(A{3},4);
->> pers{2}
+pers = computePPH(A{3},4);
+pers{2}
 ans =
 
    1   3
