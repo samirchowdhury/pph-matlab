@@ -19,7 +19,7 @@ load cycle_nets.mat
 
 A{3}
 
-// A{3} should be a 5x5 matrix wit entries 0 1 2 3 4 on top row
+// A{3} should be a 5x5 matrix with entries 0 1 2 3 4 on top row
    
 pers = computePPH(A{3},4); 
 
