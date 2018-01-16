@@ -32,3 +32,5 @@ ans =
 // More generally, A{n} contains a cycle network on (n+2) nodes, maximum weight = (n+1). 
 By the characterization result in our paper, the 1-dimensional PPH of this object should be 
 a single interval (1, ceil(n/2)). 
+
+Copyright Samir Chowdhury and Facundo Memoli, 2018. 
