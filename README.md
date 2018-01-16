@@ -15,21 +15,19 @@ pers = computePPH(A,max(max(A)))
 
 ### Further testing with cycle networks
 
-load cycle_nets.mat
+load cycle_nets.mat 
+
 A{3}
-ans =
 
-   0   1   2   3   4
-   4   0   1   2   3
-   3   4   0   1   2
-   2   3   4   0   1
-   1   2   3   4   0
+// A{3} should be a 5x5 matrix wit entries 0 1 2 3 4 on top row
    
-pers = computePPH(A{3},4);
-pers{2}
-ans =
+pers = computePPH(A{3},4); 
 
-   1   3
+pers{2}
+
+ans = 
+
+   1  3
 
 // More generally, A{n} contains a cycle network on (n+2) nodes, maximum weight = (n+1). 
 By the characterization result in our paper, the 1-dimensional PPH of this object should be 
