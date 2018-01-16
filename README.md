@@ -1,3 +1,5 @@
+*** Contact Samir for an Octave version of this code
+
 # pph-matlab
 
 Matlab code for computing path persistent homology of directed networks. 
